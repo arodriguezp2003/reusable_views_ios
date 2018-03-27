@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "aa9042ff3e4be3356632667b7034176c"
+build_time: [1522115306, 813895000]
+inputs:
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/utils/NotificationExtension.swift": [1522113811, 0]
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/utils/popUpDelegate.swift": [1522115281, 0]
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/controllers/PopUpViewController.swift": [1522115281, 0]
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/controllers/ProtocolsViewController.swift": !dirty [1522115306, 0]
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/controllers/NotificationCenterViewController.swift": [1522114287, 0]
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/AppDelegate.swift": [1522109864, 0]
+  "/Users/arodriguezmac/Documents/GlobalLogic/ReusableControlsDemo/ReusableControlsDemo/controllers/CallbacksViewController.swift": [1522114948, 0]

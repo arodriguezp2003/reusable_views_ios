@@ -10,9 +10,15 @@
 		8C0F00022069C528006CD160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F00002069C528006CD160 /* Main.storyboard */; };
 		8C0F00042069C528006CD160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F00032069C528006CD160 /* Assets.xcassets */; };
 		8C0F00072069C528006CD160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F00052069C528006CD160 /* LaunchScreen.storyboard */; };
+		8C0F00102069C572006CD160 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F000F2069C572006CD160 /* NotificationCenterViewController.swift */; };
+		8C0F00122069C57D006CD160 /* CallbacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F00112069C57D006CD160 /* CallbacksViewController.swift */; };
+		8C0F00142069C5C8006CD160 /* OtherStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F00132069C5C8006CD160 /* OtherStory.storyboard */; };
+		8C0F00162069C5F8006CD160 /* ProtocolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F00152069C5F8006CD160 /* ProtocolsViewController.swift */; };
+		8C0F00182069C800006CD160 /* PopUpStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0F00172069C800006CD160 /* PopUpStoryBoard.storyboard */; };
+		8C0F001A2069C82F006CD160 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F00192069C82F006CD160 /* PopUpViewController.swift */; };
+		8C0F001D2069D3D5006CD160 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F001C2069D3D5006CD160 /* NotificationExtension.swift */; };
+		8C0F001F2069D9C7006CD160 /* popUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F001E2069D9C7006CD160 /* popUpDelegate.swift */; };
 		8C0FFFFB2069C528006CD160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FFFFA2069C528006CD160 /* AppDelegate.swift */; };
-		8C0FFFFD2069C528006CD160 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FFFFC2069C528006CD160 /* FirstViewController.swift */; };
-		8C0FFFFF2069C528006CD160 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FFFFE2069C528006CD160 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,16 @@
 		8C0F00032069C528006CD160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C0F00062069C528006CD160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C0F00082069C528006CD160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0F000F2069C572006CD160 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		8C0F00112069C57D006CD160 /* CallbacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbacksViewController.swift; sourceTree = "<group>"; };
+		8C0F00132069C5C8006CD160 /* OtherStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OtherStory.storyboard; sourceTree = "<group>"; };
+		8C0F00152069C5F8006CD160 /* ProtocolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsViewController.swift; sourceTree = "<group>"; };
+		8C0F00172069C800006CD160 /* PopUpStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUpStoryBoard.storyboard; sourceTree = "<group>"; };
+		8C0F00192069C82F006CD160 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8C0F001C2069D3D5006CD160 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExtension.swift; sourceTree = "<group>"; };
+		8C0F001E2069D9C7006CD160 /* popUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpDelegate.swift; sourceTree = "<group>"; };
 		8C0FFFF72069C528006CD160 /* ReusableControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0FFFFA2069C528006CD160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C0FFFFC2069C528006CD160 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8C0FFFFE2069C528006CD160 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C0F000E2069C55F006CD160 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F000F2069C572006CD160 /* NotificationCenterViewController.swift */,
+				8C0F00112069C57D006CD160 /* CallbacksViewController.swift */,
+				8C0F00152069C5F8006CD160 /* ProtocolsViewController.swift */,
+				8C0F00192069C82F006CD160 /* PopUpViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		8C0F001B2069D3BD006CD160 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8C0F001C2069D3D5006CD160 /* NotificationExtension.swift */,
+				8C0F001E2069D9C7006CD160 /* popUpDelegate.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		8C0FFFEE2069C528006CD160 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +88,15 @@
 		8C0FFFF92069C528006CD160 /* ReusableControlsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C0F001B2069D3BD006CD160 /* utils */,
+				8C0F000E2069C55F006CD160 /* controllers */,
 				8C0FFFFA2069C528006CD160 /* AppDelegate.swift */,
-				8C0FFFFC2069C528006CD160 /* FirstViewController.swift */,
-				8C0FFFFE2069C528006CD160 /* SecondViewController.swift */,
+				8C0F00132069C5C8006CD160 /* OtherStory.storyboard */,
 				8C0F00002069C528006CD160 /* Main.storyboard */,
 				8C0F00032069C528006CD160 /* Assets.xcassets */,
 				8C0F00052069C528006CD160 /* LaunchScreen.storyboard */,
 				8C0F00082069C528006CD160 /* Info.plist */,
+				8C0F00172069C800006CD160 /* PopUpStoryBoard.storyboard */,
 			);
 			path = ReusableControlsDemo;
 			sourceTree = "<group>";
@@ -129,6 +163,8 @@
 				8C0F00072069C528006CD160 /* LaunchScreen.storyboard in Resources */,
 				8C0F00042069C528006CD160 /* Assets.xcassets in Resources */,
 				8C0F00022069C528006CD160 /* Main.storyboard in Resources */,
+				8C0F00182069C800006CD160 /* PopUpStoryBoard.storyboard in Resources */,
+				8C0F00142069C5C8006CD160 /* OtherStory.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C0FFFFF2069C528006CD160 /* SecondViewController.swift in Sources */,
+				8C0F001D2069D3D5006CD160 /* NotificationExtension.swift in Sources */,
+				8C0F001F2069D9C7006CD160 /* popUpDelegate.swift in Sources */,
+				8C0F001A2069C82F006CD160 /* PopUpViewController.swift in Sources */,
+				8C0F00162069C5F8006CD160 /* ProtocolsViewController.swift in Sources */,
+				8C0F00102069C572006CD160 /* NotificationCenterViewController.swift in Sources */,
 				8C0FFFFB2069C528006CD160 /* AppDelegate.swift in Sources */,
-				8C0FFFFD2069C528006CD160 /* FirstViewController.swift in Sources */,
+				8C0F00122069C57D006CD160 /* CallbacksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
